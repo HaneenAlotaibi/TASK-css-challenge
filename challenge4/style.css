@@ -6,21 +6,25 @@ body {
   position: relative;
 }
 .movie-card {
+  border: 30px;
+  margin: 200px 500px;
   padding: 10px;
-
-  padding: 5px;
 }
 .movie-image {
-  width: 25%;
-  height: auto;
+  height: 400px;
+  -webkit-box-shadow: -10px 0px 13px -7px;
 }
 .movie-details-container {
+  border: 30px;
+  margin: 200px 500px;
+  padding: 10px;
 }
+
 .descriptions {
   position: absolute;
-  bottom: 8px;
-  left: 16px;
-  font-size: 18px;
+  top: 35%;
+  left: 41%;
+  font-size: 16px;
   color: aliceblue;
 }
 
