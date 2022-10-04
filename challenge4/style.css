@@ -1,15 +1,27 @@
 /* Add your code in each class */
 body {
+  background-color: rgb(41, 13, 66);
 }
 .container {
+  position: relative;
 }
 .movie-card {
+  padding: 10px;
+
+  padding: 5px;
 }
 .movie-image {
+  width: 25%;
+  height: auto;
 }
 .movie-details-container {
 }
 .descriptions {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+  color: aliceblue;
 }
 
 /*A gift from us!*/
@@ -28,4 +40,5 @@ body {
   );
 }
 .movie-title {
+  font-weight: 700;
 }
